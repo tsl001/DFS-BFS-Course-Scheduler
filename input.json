@@ -1,0 +1,101 @@
+{
+    "Student Name": "Tony Liu",
+    "Courses to take": [
+        {
+            "Course Name": "CSE 11",
+            "Prerequisites": []
+        },
+        {
+            "Course Name": "COGS 10",
+            "Prerequisites": [] 
+        },
+        {
+            "Course Name": "CSE 12",
+            "Prerequisites": ["CSE 11"]
+        },
+        {
+            "Course Name": "CSE 15L",
+            "Prerequisites": ["CSE 11"]
+        },
+        {
+            "Course Name": "CSE 20",
+            "Prerequisites": ["CSE 11"]
+        },
+        {
+            "Course Name": "CSE 21",
+            "Prerequisites": ["CSE 20"]
+        },
+        {
+            "Course Name": "CSE 30",
+            "Prerequisites": ["CSE 12","CSE 15L"]
+        },
+        {
+            "Course Name": "MATH 20A",
+            "Prerequisites": []
+        },
+        {
+            "Course Name": "MATH 20B",
+            "Prerequisites": ["MATH 20A"]
+        },
+        {
+            "Course Name": "MATH 20C",
+            "Prerequisites": ["MATH 20B"]
+        },
+        {
+            "Course Name": "MATH 18",
+            "Prerequisites": ["MATH 20A"]
+        },
+        {
+            "Course Name": "MATH 183",
+            "Prerequisites": ["MATH 20C"]
+        },
+        {
+            "Course Name": "CSE 100",
+            "Prerequisites": ["CSE 21","CSE 12","CSE 15L","CSE 30"]
+        },
+        {
+            "Course Name": "CSE 101",
+            "Prerequisites": ["CSE 100"]
+        },
+        {
+            "Course Name": "CSE 105",
+            "Prerequisites": ["CSE 12","CSE 15L","CSE 20","CSE 21"]
+        },
+        {
+            "Course Name": "CSE 110",
+            "Prerequisites": ["CSE 100"]
+        },
+        {
+            "Course Name": "CSE 120",
+            "Prerequisites": ["CSE 101","CSE 110","CSE 30"]
+        },
+        {
+            "Course Name": "CSE 130",
+            "Prerequisites": ["CSE 12","CSE 100","CSE 105"]
+        },
+        {
+            "Course Name": "CSE 127",
+            "Prerequisites": ["CSE 21","CSE 120"]
+        },
+        {
+            "Course Name": "CSE 151A",
+            "Prerequisites": ["CSE 12","CSE 15L","MATH 183","MATH 18","MATH 20C"]
+        },
+        {
+            "Course Name": "CSE 140",
+            "Prerequisites": ["CSE 20","CSE 30"]
+        },
+        {
+            "Course Name": "CSE 140L",
+            "Prerequisites": ["CSE 20","CSE 30"] 
+        },
+        {
+            "Course Name": "CSE 141",
+            "Prerequisites": ["CSE 30","CSE 140","CSE 140L"] 
+        },
+        {
+            "Course Name": "CSE 141L",
+            "Prerequisites": ["CSE 30","CSE 140","CSE 140L"] 
+        }
+    ]
+}
